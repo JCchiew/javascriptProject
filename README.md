@@ -1,1 +1,3 @@
 # javascriptProject
+
+For practice purpose

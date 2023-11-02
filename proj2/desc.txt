@@ -1,0 +1,3 @@
+change background color into random color based on hexcode displayed
+
+text color transition to other color animation

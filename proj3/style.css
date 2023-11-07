@@ -1,0 +1,40 @@
+body{
+    background: rgb(253, 255, 226);
+}
+
+.container{
+    width: 95%;
+    height: 100vh;
+    display: flex;
+}
+
+.quotes{
+    border: 10px solid rgb(104, 104, 104);
+
+    width: 900px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 50px;
+    color: antiquewhite;
+    background-color: rgb(185, 185, 185);
+}
+
+.quotes p, .quotes h3{
+    font-size: 1.5rem;
+}
+
+.button-container{
+    text-align: center;
+    position: relative;
+    top: -150px;   
+}
+
+@media(max-width:480px){
+    .quotes p, .quotes h3{
+        font-size: 1rem;
+    }
+}
